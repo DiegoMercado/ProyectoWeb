@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Proyecto Web</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="mobile">
+        <div class="top"></div>
+        <div class="bottom"></div>
+        <div class="screen">
+            <img src="bg1.jpg">
+            <h2>10:40<span>AM</span><br><span>28th Nov, 2020</span></h2>
+            <ul>
+                <li><a href="https://foro-gaming.web.app/"><i class="fa fa-gamepad" aria-hidden="true"></i></a></li>
+                <li><a href="https://bioartist.ibx.lat/BioProject.php"><i class="fa fa-music" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.bottom').click(function(){
+                $('.screen').toggleClass('active')
+            })
+        })
+    </script>
+</body>
+</html>
